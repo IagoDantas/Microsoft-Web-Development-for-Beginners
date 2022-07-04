@@ -95,7 +95,7 @@ O HTML fornece muitos elementos que você pode usar para criar uma página, incl
 
 Com CSS e JavaScript, é possível fazer com que qualquer elemento pareça qualquer tipo de controle. Por exemplo, você pode usar '<span>' para criar um elemento '<button>' e '<b>' pode se tornar '<a>'. Embora esse recurso forneça alguns atalhos para estilizar ou dispor sua página, ele remove a funcionalidade interna. Ferramentas como um leitor de tela não conseguirão entender que '<span>' está sendo usado como '<a>'. Alguém navegando com um teclado não será capaz de definir o foco em um elemento '<div>', que tenha sido programado para simular um elemento '<button>'.
 
-Outro elemento HTML que muitas vezes é ignorado são os cabeçalhos ('<h1>' a '<h6>'). De um ponto de vista visual, as marcas de cabeçalho começam do maior para o menor tamanho de texto. Essa convenção leva muitos desenvolvedores a abrir mão de elementos de cabeçalho e estilizar '<div>' ou outros elementos genéricos.
+Outro elemento HTML que muitas vezes é ignorado são os cabeçalhos ('h1' a 'h6'). De um ponto de vista visual, as marcas de cabeçalho começam do maior para o menor tamanho de texto. Essa convenção leva muitos desenvolvedores a abrir mão de elementos de cabeçalho e estilizar 'div' ou outros elementos genéricos.
 
 ## Usar boas indicações visuais
 
