@@ -82,9 +82,9 @@ O ARIA tem vários usos além de adicionar texto para que os leitores de tela le
 
 ## Texto Alt para imagens
 
-Como regra geral, os leitores de tela não podem ler o conteúdo de uma imagem. Embora alguns possam usar inteligência artificial, os resultados gerados podem não ser contextualmente precisos. Felizmente, garantir que as imagens sejam acessíveis não dá muito trabalho é para isso que se trata o atributo 'alt'. Todas as imagens significativas devem ter um atributo 'alt' (conhecido de forma casual como texto alt) para descrever o que elas são ou as informações que estão tentando transmitir.
+Como regra geral, os leitores de tela não podem ler o conteúdo de uma imagem. Embora alguns possam usar inteligência artificial, os resultados gerados podem não ser contextualmente precisos. Felizmente, garantir que as imagens sejam acessíveis não dá muito trabalho é para isso que se trata o atributo ```alt```. Todas as imagens significativas devem ter um atributo ```alt``` (conhecido de forma casual como texto alt) para descrever o que elas são ou as informações que estão tentando transmitir.
 
-As imagens que são apenas decorativas devem ter seu atributo alt definido como uma cadeia de caracteres vazia: 'alt=""'. Essa configuração impede que os leitores de tela anunciem desnecessariamente a imagem decorativa.
+As imagens que são apenas decorativas devem ter seu atributo alt definido como uma cadeia de caracteres vazia: ```alt=""```. Essa configuração impede que os leitores de tela anunciem desnecessariamente a imagem decorativa.
 
 
 # Criação voltada à acessibilidade.
@@ -95,9 +95,9 @@ A criação de uma página acessível desde o início é sempre mais fácil do q
 
 O HTML fornece muitos elementos que você pode usar para criar uma página, incluindo botões, links e controles de formulário. Cada um desses elementos tem um conjunto de funcionalidades internas, como ser clicável, ser vinculável ou aceitar o foco.
 
-Com CSS e JavaScript, é possível fazer com que qualquer elemento pareça qualquer tipo de controle. Por exemplo, você pode usar '<span>' para criar um elemento ```<button>``` e '<b>' pode se tornar '<a>'. Embora esse recurso forneça alguns atalhos para estilizar ou dispor sua página, ele remove a funcionalidade interna. Ferramentas como um leitor de tela não conseguirão entender que '<span>' está sendo usado como '<a>'. Alguém navegando com um teclado não será capaz de definir o foco em um elemento '<div>', que tenha sido programado para simular um elemento '<button>'.
+Com CSS e JavaScript, é possível fazer com que qualquer elemento pareça qualquer tipo de controle. Por exemplo, você pode usar ```<span>``` para criar um elemento ```<button>``` e ```<b>``` pode se tornar ```<a>```. Embora esse recurso forneça alguns atalhos para estilizar ou dispor sua página, ele remove a funcionalidade interna. Ferramentas como um leitor de tela não conseguirão entender que ```<span>``` está sendo usado como ```<a>```. Alguém navegando com um teclado não será capaz de definir o foco em um elemento ```<div>```, que tenha sido programado para simular um elemento ```<button>```.
 
-Outro elemento HTML que muitas vezes é ignorado são os cabeçalhos ('h1' a 'h6'). De um ponto de vista visual, as marcas de cabeçalho começam do maior para o menor tamanho de texto. Essa convenção leva muitos desenvolvedores a abrir mão de elementos de cabeçalho e estilizar 'div' ou outros elementos genéricos.
+Outro elemento HTML que muitas vezes é ignorado são os cabeçalhos (```<h1>``` a ```<h6>```). De um ponto de vista visual, as marcas de cabeçalho começam do maior para o menor tamanho de texto. Essa convenção leva muitos desenvolvedores a abrir mão de elementos de cabeçalho e estilizar ```div``` ou outros elementos genéricos.
 
 ## Usar boas indicações visuais
 
