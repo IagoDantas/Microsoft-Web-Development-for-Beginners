@@ -67,7 +67,9 @@ O HTML é compatível com um conjunto de atributos conhecidos como ARIA (Aplicat
 
 Por exemplo, você pode usar aria-label para descrever um link quando o formato da página não permitir. A descrição do widget pode ser definida como:
 
-'<a href="#" aria-label="Widget description">description</a>'
+```
+<a href="#" aria-label="Widget description">description</a>
+```
 
 O ARIA tem vários usos além de adicionar texto para que os leitores de tela leiam links. Você pode usá-lo para descrever as funções que determinados elementos desempenham quando o HTML semântico não está disponível. Por exemplo, ao criar uma árvore, você poderá usar funções do ARIA para descrever a interface para um leitor de tela:
 
@@ -93,7 +95,7 @@ A criação de uma página acessível desde o início é sempre mais fácil do q
 
 O HTML fornece muitos elementos que você pode usar para criar uma página, incluindo botões, links e controles de formulário. Cada um desses elementos tem um conjunto de funcionalidades internas, como ser clicável, ser vinculável ou aceitar o foco.
 
-Com CSS e JavaScript, é possível fazer com que qualquer elemento pareça qualquer tipo de controle. Por exemplo, você pode usar '<span>' para criar um elemento '<button>' e '<b>' pode se tornar '<a>'. Embora esse recurso forneça alguns atalhos para estilizar ou dispor sua página, ele remove a funcionalidade interna. Ferramentas como um leitor de tela não conseguirão entender que '<span>' está sendo usado como '<a>'. Alguém navegando com um teclado não será capaz de definir o foco em um elemento '<div>', que tenha sido programado para simular um elemento '<button>'.
+Com CSS e JavaScript, é possível fazer com que qualquer elemento pareça qualquer tipo de controle. Por exemplo, você pode usar '<span>' para criar um elemento ```<button>``` e '<b>' pode se tornar '<a>'. Embora esse recurso forneça alguns atalhos para estilizar ou dispor sua página, ele remove a funcionalidade interna. Ferramentas como um leitor de tela não conseguirão entender que '<span>' está sendo usado como '<a>'. Alguém navegando com um teclado não será capaz de definir o foco em um elemento '<div>', que tenha sido programado para simular um elemento '<button>'.
 
 Outro elemento HTML que muitas vezes é ignorado são os cabeçalhos ('h1' a 'h6'). De um ponto de vista visual, as marcas de cabeçalho começam do maior para o menor tamanho de texto. Essa convenção leva muitos desenvolvedores a abrir mão de elementos de cabeçalho e estilizar 'div' ou outros elementos genéricos.
 
