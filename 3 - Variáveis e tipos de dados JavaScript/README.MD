@@ -126,7 +126,7 @@ As variáveis podem armazenar todos os tipos de números, incluindo decimais ou 
 
 Aqui estão alguns tipos de operadores que você pode usar ao executar funções aritméticas:
 
-image.png
+![image](https://user-images.githubusercontent.com/82843173/177216498-e94a64a6-8442-435a-8c48-b47df3caebea.png)
 
 # Cadeias de caracteres
 
