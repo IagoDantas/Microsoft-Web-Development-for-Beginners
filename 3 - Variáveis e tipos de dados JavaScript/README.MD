@@ -118,7 +118,7 @@ As variáveis podem armazenar diversos tipos de valores, como números e texto. 
 
 Os tipos de dados são uma parte importante do desenvolvimento de software, porque os desenvolvedores os usam para tomar decisões sobre como o código deve ser escrito e como o software deve ser executado. Alguns tipos de dados têm recursos exclusivos que ajudam a transformar ou extrair informações adicionais de um valor.
 
-Os tipos de dados também são chamados de primitivos de dados do JavaScript, pois são os tipos de dados de nível mais baixo que a linguagem fornece. Há seis tipos de dados primitivos: ````string```, ````number````, ````bigint````, ````boolean````, ````undefined```` e ````symbol````.
+Os tipos de dados também são chamados de primitivos de dados do JavaScript, pois são os tipos de dados de nível mais baixo que a linguagem fornece. Há seis tipos de dados primitivos: ````string````, ````number````, ````bigint````, ````boolean````, ````undefined```` e ````symbol````.
 
 # Números
 
