@@ -7,7 +7,7 @@ Quando você deseja definir caminhos diferentes por meio de seu código, você u
 
 # Operadores de comparação e Boolianos
 
-image.png
+![image](https://user-images.githubusercontent.com/82843173/178086593-147efb41-a6fc-43a0-8bbc-31b4dbd63377.png)
 
 Para usar um operador, você pode usá-lo como parte de uma atribuição ou parte de uma comparação em um constructo ````if/else.```` Você verá mais sobre ````if/else```` posteriormente no módulo. O código a seguir mostra como você pode usar um operador como parte de uma atribuição.
 
@@ -58,7 +58,7 @@ if (value operator compareToThisValue) {
 
 Há operadores específicos que nos permitem conectar muitas instruções boolianas. O resultado é uma instrução mais complexa que ainda é avaliada como ````true```` ou ````false````. Você pode usar o seguinte conjunto de operadores para construir essas comparações mais complexas:
 
-image.png
+![image](https://user-images.githubusercontent.com/82843173/178086611-c7cce280-5c51-4095-bd5f-a3bad565ced1.png)
 
 ## Condições e decisões com operadores lógicos
 
